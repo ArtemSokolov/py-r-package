@@ -77,3 +77,12 @@ extra$pymat()
 # [1,]    0    1    2
 # [2,]    3    4    5
 ```
+
+## Working example
+
+A full working example is included in this repo. You can install it directly from GitHub by running the following commands in R:
+
+``` r
+if( !require(devtools) ) install.packages("devtools")
+devtools::install_github("ArtemSokolov/pypkg")
+```
