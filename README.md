@@ -45,7 +45,7 @@ extra <- NULL
 }
 ```
 
-As mentioned above, `inst/python/` subdirectory will appear as `python/` at the top level once the package is installed. The file above simply tells R to import the Python code we wrote above as `extra` module. For demonstration purposes, we use a global variable here. However, a better programming practice would be to write an accessor function that encapsulates the Python interface ([see example](https://github.com/ArtemSokolov/indRa/blob/0c2403228df846e4752c261c5637d7fb9472e5b7/R/indra.R#L4)).
+As mentioned above, `inst/python/` subdirectory will appear as `python/` at the top level once the package is installed. The file above simply tells R to import the Python code we wrote above as `extra` module. For demonstration purposes, we use a global variable here. However, a better programming practice would be to write an accessor function that encapsulates the Python interface ([see example](https://github.com/ArtemSokolov/indRa/blob/0c2403228df846e4752c261c5637d7fb9472e5b7/R/indra.R)).
 
 ## Install the R package
 
